@@ -5,11 +5,11 @@ body{
 
 .header{
     position: fixed;
+    background-color: black;
     top: 0;
     left: -84px;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,11 +20,13 @@ body{
     font-size: 25px;
     text-decoration: none;
     font-weight: 600;
-    color: rgb(32, 17, 72);
+    color: white;
 }
 
 
-
+.navbar {
+    margin-right: 100px;
+}
 .navbar a {
     font-size: 18px;
     color: #ededed;
@@ -49,7 +51,78 @@ body{
     padding: 0 10%;
 }
 
+.skills {
+    height: 100vh;
+    background-color: #ededed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Portfolio {
+    height: 100vh;
+    background-color: #ededed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Contacts {
+    height: 100vh;
+    background-color: #ededed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.About {
+    height: 100vh;
+    background-color:#ededed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    /* color: black; */
+}
+
+.elevator {
+    color: #FF4500;
+}
+
+.aboutcontent p {
+    color: red;
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+.aboutcontent{
+    max-width: 600px;
+}
+
+.aboutcontent h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
+
 .home-content{
+    max-width: 600px;
+    background-color: whitesmoke;
+    border-radius: 10px ;
+    margin-left: -90px;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+.skills-content{
     max-width: 600px;
 }
 
@@ -70,7 +143,27 @@ body{
 .home-content p {
     font-size: 18px;
     margin: 20px 0 40px;
-    color: rgb(71, 19, 75);
+    color:darkred;
+}
+
+.skills-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
+
+
+.skills-content h3  {
+    font-size: 35px;
+    font-weight: 700;
+    color: #160862;
+}
+
+.skills-content p {
+    font-size: 18px;
+    margin: 20px 0 40px;
+    color:darkred;
 }
 
 .home-sci {
